@@ -7,7 +7,7 @@ counts and totals.
 
 Nothing is written to disk — all output goes straight to your terminal.
 
----
+
 
 ## Files
 
@@ -17,7 +17,7 @@ Nothing is written to disk — all output goes straight to your terminal.
 | `modified_sms_v2.xml`      | The MoMo SMS backup to analyze (provided separately). |
 | `README.md`                | This file. |
 
----
+
 
 ## Requirements
 
