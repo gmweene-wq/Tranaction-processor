@@ -6,7 +6,9 @@ RECEIVED_RE = re.compile(r"You have received\s+([\d,]+)\s*RWF")
 SENT_RE     = re.compile(r"You have transferred\s+([\d,]+)\s*RWF")
 
 # Load the XML file and grab all <sms> elements.
-tree = ET.parse("modified_sms_v2.xml")
+import os
+xml_path = os.path.join(os.path.dirname(__file__), "modified_sms_v2.xml")
+tree = ET.parse(xml_path)
 root = tree.getroot()
 messages = root.findall("sms")
 
